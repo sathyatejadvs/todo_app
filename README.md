@@ -1,24 +1,17 @@
-# README
+# MY Task Application
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+> Used Stacks
+	-ruby,
+	-rails, 
+	-mongodb, 
+	-twitter-bootstrap
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## Need to Implement
+	-create a home page
+	-implement authentication
+	-on successful authentication should land on task dashboard page
+	-create a layout of 4 sections(buckets: backlog, inprogress, under review, complete)
+	-add a "add task" button in the dashboard page
+	-on click of the "add task" button show a task form in modal
+	-validations: task title: mandatory due date: mandatory, future date range, should be a valid date
+	-On creation of a task it should be added to the first bucket.
