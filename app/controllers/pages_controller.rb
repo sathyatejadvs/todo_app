@@ -3,5 +3,6 @@ class PagesController < ApplicationController
   end
 
   def dashboard
+  	@task = Task.new
   end
 end
